@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AAA_senior_design")(type "KiCad")(uri "${KIPRJMOD}/AAA_senior_design.pretty")(options "")(descr ""))
+)
