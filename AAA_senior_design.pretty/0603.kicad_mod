@@ -1,0 +1,38 @@
+(footprint "0603" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 2.541162 -1.270578) (layer "F.SilkS")
+      (effects (font (size 1.000457 1.000457) (thickness 0.15)))
+    (tstamp 9401bb75-ab24-4b17-a563-6e23586a7c0c)
+  )
+  (fp_text value "0603" (at 1.905992 1.27065) (layer "F.Fab")
+      (effects (font (size 1.00052 1.00052) (thickness 0.15)))
+    (tstamp f4f3a0c0-4dfa-4798-bc70-d5df8b4a63ff)
+  )
+  (fp_line (start -0.356 -0.432) (end 0.356 -0.432)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 517cba4c-9ff2-4663-b0ea-a2a44a6e5106))
+  (fp_line (start -0.356 0.419) (end 0.356 0.419)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 49573486-6575-4fd2-8689-5039a25086b8))
+  (fp_poly
+    (pts
+      (xy -0.838505 -0.4801)
+      (xy -0.3381 -0.4801)
+      (xy -0.3381 0.470071)
+      (xy -0.838505 0.470071)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 3794b3d4-489b-4d1e-bccc-639cf3c0ae25))
+  (fp_poly
+    (pts
+      (xy 0.330214 -0.4801)
+      (xy 0.8303 -0.4801)
+      (xy 0.8303 0.46992)
+      (xy 0.330214 0.46992)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 6a0ec6f8-6403-4ab6-9eff-f947eeb7d864))
+  (pad "1" smd rect (at -0.85 0) (size 1.1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp ed05a6fd-8f7d-471a-8868-5b5c7e63b784))
+  (pad "2" smd rect (at 0.85 0) (size 1.1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 885f926b-0a3a-4e37-98d1-256b34acb63f))
+)
