@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\james\Desktop\College\SDSU year 3\492\Senior Design PCB\Senior Design PCB.kicad_sch</source>
-    <date>11/8/2023 8:04:14 PM</date>
+    <date>11/8/2023 8:49:44 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,7 +26,7 @@
   <components>
     <comp ref="BKB1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -180,7 +180,7 @@
     </comp>
     <comp ref="CAP1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -224,7 +224,7 @@
     </comp>
     <comp ref="ENB1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -235,7 +235,7 @@
     </comp>
     <comp ref="ENC1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -290,7 +290,7 @@
     </comp>
     <comp ref="FBCH1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -301,7 +301,7 @@
     </comp>
     <comp ref="FBCR1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -312,7 +312,7 @@
     </comp>
     <comp ref="FBS1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -323,7 +323,7 @@
     </comp>
     <comp ref="H1">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5mm</footprint>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -334,7 +334,7 @@
     </comp>
     <comp ref="H2">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5mm</footprint>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -345,7 +345,7 @@
     </comp>
     <comp ref="H3">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5mm</footprint>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -356,7 +356,7 @@
     </comp>
     <comp ref="H4">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5mm</footprint>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -367,7 +367,7 @@
     </comp>
     <comp ref="H5">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -378,7 +378,7 @@
     </comp>
     <comp ref="H6">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -389,7 +389,7 @@
     </comp>
     <comp ref="H7">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -400,7 +400,7 @@
     </comp>
     <comp ref="H8">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -411,7 +411,7 @@
     </comp>
     <comp ref="ISET1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -500,7 +500,7 @@
     </comp>
     <comp ref="LX1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -621,7 +621,7 @@
     </comp>
     <comp ref="RDY1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -632,7 +632,7 @@
     </comp>
     <comp ref="SYS1">
       <value>TestPoint_Small</value>
-      <footprint>Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
       <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -1102,9 +1102,10 @@
       <node ref="U3" pin="2" pinfunction="ENB" pintype="input"/>
     </net>
     <net code="5" name="Net-(D1-K)">
-      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="CB" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VSW" pintype="output"/>
     </net>
     <net code="6" name="Net-(F3-Pad1)">
       <node ref="F3" pin="1" pintype="passive"/>
@@ -1186,10 +1187,9 @@
       <node ref="TP2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="ON/~OFF" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(U1-VSW)">
-      <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="L1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="VSW" pintype="output"/>
+    <net code="24" name="Net-(U1-CB)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CB" pintype="passive"/>
     </net>
     <net code="25" name="Net-(U3-BKB)">
       <node ref="BKB1" pin="1" pinfunction="1" pintype="passive"/>
