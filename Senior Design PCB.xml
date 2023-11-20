@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Users\james\Desktop\College\SDSU year 3\492\Senior Design PCB\Senior Design PCB.kicad_sch</source>
-    <date>11/8/2023 8:49:44 PM</date>
+    <date>11/15/2023 11:47:57 AM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>DATA CAPTURE MODULE</title>
         <company>HNOI / SDSU</company>
-        <rev>C</rev>
-        <date>2023-11-08</date>
+        <rev>D</rev>
+        <date>2023-11-12</date>
         <source>Senior Design PCB.kicad_sch</source>
         <comment number="1" value="By Kevin Wilkins, Fadi Shebli, Johnhenry Do, Sarah Muayad, and Ian McEwan"/>
         <comment number="2" value=""/>
@@ -222,28 +222,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>71162e76-96a1-44e5-b1ad-300f4eb21fe4</tstamps>
     </comp>
-    <comp ref="ENB1">
-      <value>TestPoint_Small</value>
-      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e9ca865e-8f5d-4393-b75b-334e6bdcb4aa</tstamps>
-    </comp>
-    <comp ref="ENC1">
-      <value>TestPoint_Small</value>
-      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="test point"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f0a73e40-a2bb-421c-b95a-3e5b2481ca28</tstamps>
-    </comp>
     <comp ref="F1">
       <value>Fuse</value>
       <footprint>AAA_senior_design:FUSE_4525</footprint>
@@ -254,39 +232,6 @@
       <property name="ki_keywords" value="fuse"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e3b1f82b-6bed-4119-9496-a67f49dfaa9d</tstamps>
-    </comp>
-    <comp ref="F2">
-      <value>Fuse</value>
-      <footprint>AAA_senior_design:FUSE_4525</footprint>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>59aaaa51-e11c-47a3-9fb3-7bc5492d50b4</tstamps>
-    </comp>
-    <comp ref="F3">
-      <value>Fuse</value>
-      <footprint>AAA_senior_design:FUSE_4525</footprint>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>dd3186c1-bfa9-417c-910a-a023b0af03a0</tstamps>
-    </comp>
-    <comp ref="F4">
-      <value>Fuse</value>
-      <footprint>AAA_senior_design:FUSE_4525</footprint>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c08e217d-565e-4382-9c9e-32e0e3466e9b</tstamps>
     </comp>
     <comp ref="FBCH1">
       <value>TestPoint_Small</value>
@@ -323,7 +268,7 @@
     </comp>
     <comp ref="H1">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -334,7 +279,7 @@
     </comp>
     <comp ref="H2">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -345,7 +290,7 @@
     </comp>
     <comp ref="H3">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -356,7 +301,7 @@
     </comp>
     <comp ref="H4">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_5.3mm_M5_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -367,7 +312,7 @@
     </comp>
     <comp ref="H5">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -378,7 +323,7 @@
     </comp>
     <comp ref="H6">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -389,7 +334,7 @@
     </comp>
     <comp ref="H7">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -400,7 +345,7 @@
     </comp>
     <comp ref="H8">
       <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
@@ -408,6 +353,72 @@
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a86893ba-fa09-48ce-a317-b4153b92983e</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96013d26-2698-455f-8385-2f5ff706c7e0</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>666e5731-4249-49f3-a38c-f1a82f57ff15</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f5fa677-0429-4eef-949a-ac0e78e8cbc2</tstamps>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>871127d0-e83e-4239-ad32-8746c5312159</tstamps>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf6229c7-a09a-4087-b35b-e42748747964</tstamps>
+    </comp>
+    <comp ref="H14">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e412e38a-f54a-45fc-9c1f-0cbec98213a5</tstamps>
     </comp>
     <comp ref="ISET1">
       <value>TestPoint_Small</value>
@@ -1026,9 +1037,13 @@
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="F2" pin="1" pintype="passive"/>
-      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="CAP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="CSCAP1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="5V" pintype="power_in"/>
       <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
@@ -1036,6 +1051,7 @@
       <node ref="U1" pin="6" pinfunction="FB" pintype="passive"/>
       <node ref="U3" pin="13" pinfunction="SYS" pintype="power_out"/>
       <node ref="U3" pin="14" pinfunction="SYS" pintype="power_out"/>
+      <node ref="U3" pin="5" pinfunction="CAP" pintype="power_in"/>
     </net>
     <net code="2" name="/12V">
       <node ref="C1" pin="1" pintype="passive"/>
@@ -1047,7 +1063,7 @@
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="CH0" pintype="input"/>
     </net>
@@ -1067,9 +1083,12 @@
       <node ref="CSCAP1" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="ENB1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="ENC1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H10" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H11" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H12" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H13" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H14" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
@@ -1077,6 +1096,7 @@
       <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H7" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H8" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H9" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="14" pinfunction="GND" pintype="power_in"/>
@@ -1107,206 +1127,189 @@
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VSW" pintype="output"/>
     </net>
-    <net code="6" name="Net-(F3-Pad1)">
-      <node ref="F3" pin="1" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="5V" pintype="power_in"/>
-    </net>
-    <net code="7" name="Net-(J1-Pin_2)">
+    <net code="6" name="Net-(J1-Pin_2)">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(J2-Pin_2)">
-      <node ref="F4" pin="1" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="9" name="Net-(J3-GPIO2)">
+    <net code="7" name="Net-(J3-GPIO2)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="GPIO2" pintype="bidirectional"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(J3-GPIO8)">
+    <net code="8" name="Net-(J3-GPIO8)">
       <node ref="J3" pin="24" pinfunction="GPIO8" pintype="bidirectional"/>
       <node ref="U2" pin="10" pinfunction="~{CS}/SHDN" pintype="input"/>
     </net>
-    <net code="11" name="Net-(J3-GPIO9)">
+    <net code="9" name="Net-(J3-GPIO9)">
       <node ref="J3" pin="21" pinfunction="GPIO9" pintype="bidirectional"/>
       <node ref="U2" pin="12" pinfunction="Dout" pintype="output"/>
     </net>
-    <net code="12" name="Net-(J3-GPIO10)">
+    <net code="10" name="Net-(J3-GPIO10)">
       <node ref="J3" pin="19" pinfunction="GPIO10" pintype="bidirectional"/>
       <node ref="U2" pin="11" pinfunction="Din" pintype="input"/>
     </net>
-    <net code="13" name="Net-(J3-GPIO11)">
+    <net code="11" name="Net-(J3-GPIO11)">
       <node ref="J3" pin="23" pinfunction="GPIO11" pintype="bidirectional"/>
       <node ref="U2" pin="13" pinfunction="CLK" pintype="input"/>
     </net>
-    <net code="14" name="Net-(J3-GPIO24)">
+    <net code="12" name="Net-(J3-GPIO24)">
       <node ref="J3" pin="18" pinfunction="GPIO24" pintype="bidirectional"/>
       <node ref="J7-1" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(J3-KEY0)">
+    <net code="13" name="Net-(J3-KEY0)">
       <node ref="J3" pin="31" pinfunction="KEY0" pintype="bidirectional"/>
       <node ref="J7-2" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(J3-KEY1)">
+    <net code="14" name="Net-(J3-KEY1)">
       <node ref="J3" pin="29" pinfunction="KEY1" pintype="bidirectional"/>
       <node ref="J7-2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(J3-MOSI1)">
+    <net code="15" name="Net-(J3-MOSI1)">
       <node ref="J3" pin="38" pinfunction="MOSI1" pintype="bidirectional"/>
       <node ref="J7-2" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(J3-RST)">
+    <net code="16" name="Net-(J3-RST)">
       <node ref="J3" pin="16" pinfunction="RST" pintype="bidirectional"/>
       <node ref="J7-1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(J3-SCLK1)">
+    <net code="17" name="Net-(J3-SCLK1)">
       <node ref="J3" pin="40" pinfunction="SCLK1" pintype="bidirectional"/>
       <node ref="J7-2" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(J3-SPI1_CE0)">
+    <net code="18" name="Net-(J3-SPI1_CE0)">
       <node ref="J3" pin="12" pinfunction="SPI1_CE0" pintype="bidirectional"/>
       <node ref="J7-1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(J7-1-Pin_1)">
+    <net code="19" name="Net-(J7-1-Pin_1)">
       <node ref="J3" pin="2" pinfunction="5V" pintype="power_in"/>
       <node ref="J7-1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="Vref" pintype="power_in"/>
       <node ref="U2" pin="16" pinfunction="Vdd" pintype="power_in"/>
     </net>
-    <net code="22" name="Net-(L2-Pad2)">
+    <net code="20" name="Net-(L2-Pad2)">
       <node ref="L2" pin="2" pintype="passive"/>
       <node ref="LX1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="LX" pintype="bidirectional"/>
       <node ref="U3" pin="7" pinfunction="LX" pintype="bidirectional"/>
       <node ref="U3" pin="8" pinfunction="LX" pintype="bidirectional"/>
     </net>
-    <net code="23" name="Net-(TP2-Pin_1)">
+    <net code="21" name="Net-(TP2-Pin_1)">
       <node ref="TP2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="TP2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="ON/~OFF" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(U1-CB)">
+    <net code="22" name="Net-(U1-CB)">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="CB" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(U3-BKB)">
+    <net code="23" name="Net-(U3-BKB)">
       <node ref="BKB1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="BKB" pintype="output"/>
     </net>
-    <net code="26" name="Net-(U3-CAP)">
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="CAP1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="CSCAP1" pin="1" pintype="passive"/>
-      <node ref="F2" pin="2" pintype="passive"/>
-      <node ref="L2" pin="1" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U3" pin="5" pinfunction="CAP" pintype="power_in"/>
-    </net>
-    <net code="27" name="Net-(U3-FBCH)">
+    <net code="24" name="Net-(U3-FBCH)">
       <node ref="FBCH1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U3" pin="10" pinfunction="FBCH" pintype="input"/>
     </net>
-    <net code="28" name="Net-(U3-FBCR)">
+    <net code="25" name="Net-(U3-FBCR)">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="FBCR1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="FBCR" pintype="input"/>
     </net>
-    <net code="29" name="Net-(U3-FBS)">
+    <net code="26" name="Net-(U3-FBS)">
       <node ref="FBS1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U3" pin="11" pinfunction="FBS" pintype="output"/>
     </net>
-    <net code="30" name="Net-(U3-ISET)">
+    <net code="27" name="Net-(U3-ISET)">
       <node ref="ISET1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="U3" pin="12" pinfunction="ISET" pintype="output"/>
     </net>
-    <net code="31" name="Net-(U3-RDY)">
+    <net code="28" name="Net-(U3-RDY)">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="RDY1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="RDY" pintype="output"/>
     </net>
-    <net code="32" name="unconnected-(J3-3V3-Pad1)">
+    <net code="29" name="unconnected-(J3-3V3-Pad1)">
       <node ref="J3" pin="1" pinfunction="3V3" pintype="power_in+no_connect"/>
     </net>
-    <net code="33" name="unconnected-(J3-3V3-Pad17)">
+    <net code="30" name="unconnected-(J3-3V3-Pad17)">
       <node ref="J3" pin="17" pinfunction="3V3" pintype="power_in+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(J3-GPIO0-Pad27)">
+    <net code="31" name="unconnected-(J3-GPIO0-Pad27)">
       <node ref="J3" pin="27" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(J3-GPIO1-Pad28)">
+    <net code="32" name="unconnected-(J3-GPIO1-Pad28)">
       <node ref="J3" pin="28" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(J3-GPIO3-Pad5)">
+    <net code="33" name="unconnected-(J3-GPIO3-Pad5)">
       <node ref="J3" pin="5" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(J3-GPIO4-Pad7)">
+    <net code="34" name="unconnected-(J3-GPIO4-Pad7)">
       <node ref="J3" pin="7" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(J3-GPIO7-Pad26)">
+    <net code="35" name="unconnected-(J3-GPIO7-Pad26)">
       <node ref="J3" pin="26" pinfunction="GPIO7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(J3-GPIO12-Pad32)">
+    <net code="36" name="unconnected-(J3-GPIO12-Pad32)">
       <node ref="J3" pin="32" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J3-GPIO13-Pad33)">
+    <net code="37" name="unconnected-(J3-GPIO13-Pad33)">
       <node ref="J3" pin="33" pinfunction="GPIO13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J3-GPIO14-Pad8)">
+    <net code="38" name="unconnected-(J3-GPIO14-Pad8)">
       <node ref="J3" pin="8" pinfunction="GPIO14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J3-GPIO15-Pad10)">
+    <net code="39" name="unconnected-(J3-GPIO15-Pad10)">
       <node ref="J3" pin="10" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(J3-GPIO16-Pad36)">
+    <net code="40" name="unconnected-(J3-GPIO16-Pad36)">
       <node ref="J3" pin="36" pinfunction="GPIO16" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(J3-GPIO17-Pad11)">
+    <net code="41" name="unconnected-(J3-GPIO17-Pad11)">
       <node ref="J3" pin="11" pinfunction="GPIO17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(J3-GPIO19-Pad35)">
+    <net code="42" name="unconnected-(J3-GPIO19-Pad35)">
       <node ref="J3" pin="35" pinfunction="GPIO19" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(J3-GPIO22-Pad15)">
+    <net code="43" name="unconnected-(J3-GPIO22-Pad15)">
       <node ref="J3" pin="15" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(J3-GPIO25-Pad22)">
+    <net code="44" name="unconnected-(J3-GPIO25-Pad22)">
       <node ref="J3" pin="22" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(J3-GPIO26-Pad37)">
+    <net code="45" name="unconnected-(J3-GPIO26-Pad37)">
       <node ref="J3" pin="37" pinfunction="GPIO26" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(J3-GPIO27-Pad13)">
+    <net code="46" name="unconnected-(J3-GPIO27-Pad13)">
       <node ref="J3" pin="13" pinfunction="GPIO27" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(U2-CH1-Pad2)">
+    <net code="47" name="unconnected-(U2-CH1-Pad2)">
       <node ref="U2" pin="2" pinfunction="CH1" pintype="input+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(U2-CH2-Pad3)">
+    <net code="48" name="unconnected-(U2-CH2-Pad3)">
       <node ref="U2" pin="3" pinfunction="CH2" pintype="input+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(U2-CH3-Pad4)">
+    <net code="49" name="unconnected-(U2-CH3-Pad4)">
       <node ref="U2" pin="4" pinfunction="CH3" pintype="input+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U2-CH4-Pad5)">
+    <net code="50" name="unconnected-(U2-CH4-Pad5)">
       <node ref="U2" pin="5" pinfunction="CH4" pintype="input+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U2-CH5-Pad6)">
+    <net code="51" name="unconnected-(U2-CH5-Pad6)">
       <node ref="U2" pin="6" pinfunction="CH5" pintype="input+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U2-CH6-Pad7)">
+    <net code="52" name="unconnected-(U2-CH6-Pad7)">
       <node ref="U2" pin="7" pinfunction="CH6" pintype="input+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U2-CH7-Pad8)">
+    <net code="53" name="unconnected-(U2-CH7-Pad8)">
       <node ref="U2" pin="8" pinfunction="CH7" pintype="input+no_connect"/>
     </net>
   </nets>

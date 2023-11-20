@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.23,
-          "width": 1.23
+          "height": 0.9398,
+          "width": 0.8636
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -81,21 +81,21 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -176,7 +176,11 @@
         0.254,
         0.381,
         0.508,
-        1.016
+        0.762,
+        0.889,
+        1.016,
+        1.27,
+        1.524
       ],
       "via_dimensions": [
         {
@@ -184,12 +188,44 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35804,
-          "drill": 0.1797
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
-          "diameter": 0.71364,
-          "drill": 0.3575
+          "diameter": 0.508,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.635,
+          "drill": 0.3175
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.381
+        },
+        {
+          "diameter": 0.889,
+          "drill": 0.4445
+        },
+        {
+          "diameter": 1.016,
+          "drill": 0.508
+        },
+        {
+          "diameter": 1.143,
+          "drill": 0.5715
+        },
+        {
+          "diameter": 1.27,
+          "drill": 0.635
+        },
+        {
+          "diameter": 1.524,
+          "drill": 0.762
+        },
+        {
+          "diameter": 1.778,
+          "drill": 0.889
         }
       ],
       "zones_allow_external_fillets": false
