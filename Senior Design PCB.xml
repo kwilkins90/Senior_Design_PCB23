@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Users\james\Desktop\College\SDSU year 3\492\Senior Design PCB\Senior Design PCB.kicad_sch</source>
-    <date>11/15/2023 11:47:57 AM</date>
+    <date>11/19/2023 5:33:28 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>DATA CAPTURE MODULE</title>
         <company>HNOI / SDSU</company>
-        <rev>D</rev>
-        <date>2023-11-12</date>
+        <rev>E</rev>
+        <date>2023-11-19</date>
         <source>Senior Design PCB.kicad_sch</source>
         <comment number="1" value="By Kevin Wilkins, Fadi Shebli, Johnhenry Do, Sarah Muayad, and Ian McEwan"/>
         <comment number="2" value=""/>
@@ -222,17 +222,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>71162e76-96a1-44e5-b1ad-300f4eb21fe4</tstamps>
     </comp>
-    <comp ref="F1">
-      <value>Fuse</value>
-      <footprint>AAA_senior_design:FUSE_4525</footprint>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Fuse"/>
-      <property name="ki_keywords" value="fuse"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e3b1f82b-6bed-4119-9496-a67f49dfaa9d</tstamps>
-    </comp>
     <comp ref="FBCH1">
       <value>TestPoint_Small</value>
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
@@ -398,28 +387,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>871127d0-e83e-4239-ad32-8746c5312159</tstamps>
     </comp>
-    <comp ref="H13">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bf6229c7-a09a-4087-b35b-e42748747964</tstamps>
-    </comp>
-    <comp ref="H14">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e412e38a-f54a-45fc-9c1f-0cbec98213a5</tstamps>
-    </comp>
     <comp ref="ISET1">
       <value>TestPoint_Small</value>
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
@@ -465,27 +432,60 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bcf204fd-9f16-49c0-874a-07010fb1f868</tstamps>
     </comp>
-    <comp ref="J7-1">
-      <value>Conn_01x04</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="J4">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c7f3fc4f-1985-4566-a3ea-42690300ebf3</tstamps>
+      <tstamps>df7b96ca-8b62-45f7-b68c-9cbea2b49b3c</tstamps>
     </comp>
-    <comp ref="J7-2">
-      <value>Conn_01x04</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="J8">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>07e7198a-7621-4aa0-9999-07d905d0d9da</tstamps>
+      <tstamps>23d32680-7574-4bc4-b3fb-a07748675497</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb6d58a3-358e-4883-96f4-63cd0048c88e</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bb2dc58-d562-44be-a4cb-04a282a38f96</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Senior Design PCB.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e43af1c-f07d-4678-81d3-700cba0a97ab</tstamps>
     </comp>
     <comp ref="L1">
       <value>15uH</value>
@@ -874,15 +874,15 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x04">
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x04</field>
+        <field name="Value">Conn_01x08</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -890,6 +890,10 @@
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Polarized_Small_US">
@@ -941,22 +945,6 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="Fuse">
-      <description>Fuse</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>*Fuse*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Fuse</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="L_Small">
@@ -1035,31 +1023,37 @@
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="5V" pintype="power_in"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SYS1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="SYS" pintype="power_out"/>
+      <node ref="U3" pin="14" pinfunction="SYS" pintype="power_out"/>
+    </net>
+    <net code="2" name="/5V - unreg">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="CAP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="CSCAP1" pin="1" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="5V" pintype="power_in"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="L2" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="SYS1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="FB" pintype="passive"/>
-      <node ref="U3" pin="13" pinfunction="SYS" pintype="power_out"/>
-      <node ref="U3" pin="14" pinfunction="SYS" pintype="power_out"/>
       <node ref="U3" pin="5" pinfunction="CAP" pintype="power_in"/>
     </net>
-    <net code="2" name="/12V">
+    <net code="3" name="/12V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VIN" pintype="input"/>
     </net>
-    <net code="3" name="/Vsig">
+    <net code="4" name="/Vsig">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -1067,7 +1061,7 @@
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="CH0" pintype="input"/>
     </net>
-    <net code="4" name="GND">
+    <net code="5" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -1087,8 +1081,6 @@
       <node ref="H10" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H11" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H12" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H13" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H14" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
@@ -1098,6 +1090,8 @@
       <node ref="H8" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H9" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="14" pinfunction="GND" pintype="power_in"/>
       <node ref="J3" pin="20" pinfunction="GND" pintype="power_in"/>
@@ -1107,6 +1101,8 @@
       <node ref="J3" pin="39" pinfunction="GND" pintype="power_in"/>
       <node ref="J3" pin="6" pinfunction="GND" pintype="power_in"/>
       <node ref="J3" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
@@ -1121,15 +1117,11 @@
       <node ref="U3" pin="16" pinfunction="AGND" pintype="power_in"/>
       <node ref="U3" pin="2" pinfunction="ENB" pintype="input"/>
     </net>
-    <net code="5" name="Net-(D1-K)">
+    <net code="6" name="Net-(D1-K)">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L1" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VSW" pintype="output"/>
-    </net>
-    <net code="6" name="Net-(J1-Pin_2)">
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="7" name="Net-(J3-GPIO2)">
       <node ref="C10" pin="1" pintype="passive"/>
@@ -1155,35 +1147,35 @@
     </net>
     <net code="12" name="Net-(J3-GPIO24)">
       <node ref="J3" pin="18" pinfunction="GPIO24" pintype="bidirectional"/>
-      <node ref="J7-1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="13" name="Net-(J3-KEY0)">
       <node ref="J3" pin="31" pinfunction="KEY0" pintype="bidirectional"/>
-      <node ref="J7-2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
     <net code="14" name="Net-(J3-KEY1)">
       <node ref="J3" pin="29" pinfunction="KEY1" pintype="bidirectional"/>
-      <node ref="J7-2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
     <net code="15" name="Net-(J3-MOSI1)">
       <node ref="J3" pin="38" pinfunction="MOSI1" pintype="bidirectional"/>
-      <node ref="J7-2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
     <net code="16" name="Net-(J3-RST)">
       <node ref="J3" pin="16" pinfunction="RST" pintype="bidirectional"/>
-      <node ref="J7-1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="17" name="Net-(J3-SCLK1)">
       <node ref="J3" pin="40" pinfunction="SCLK1" pintype="bidirectional"/>
-      <node ref="J7-2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
     <net code="18" name="Net-(J3-SPI1_CE0)">
       <node ref="J3" pin="12" pinfunction="SPI1_CE0" pintype="bidirectional"/>
-      <node ref="J7-1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(J7-1-Pin_1)">
+    <net code="19" name="Net-(J4-Pin_1)">
       <node ref="J3" pin="2" pinfunction="5V" pintype="power_in"/>
-      <node ref="J7-1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="Vref" pintype="power_in"/>
       <node ref="U2" pin="16" pinfunction="Vdd" pintype="power_in"/>
     </net>
