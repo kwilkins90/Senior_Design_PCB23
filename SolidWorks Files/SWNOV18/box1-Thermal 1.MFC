@@ -1,0 +1,8 @@
+[StartTime]
+box1-Thermal 1.MFC=
+[SolverState]
+box1-Thermal 1.MFC=2
+[ShowMin]
+box1-Thermal 1.MFC=yes
+[StudyType]
+box1-Thermal 1.MFC=-1

@@ -1,0 +1,11 @@
+smaller tower:
+silver edge by camera cable to edge of pcb 2.62in
+bottom edge of silver top to bottom edge of pcb: 0.8in
+
+bigger tower:
+edge of cpu to left edge of pcb: 3.21in
+
+bottom edge of cpu top to bottom edge of pcb: 0.73in
+
+
+gap inbetween tower:0.11in
